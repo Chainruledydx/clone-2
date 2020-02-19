@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+.main__top {
+  width: 380px;
+  height: 160px;
+}
+
+.main__bottom {
+  width: 380px;
+  height: 220px;
+}
+
+.main__top-back {
+  border-radius: 15px;
+}
+
+.main__bottom-picture {
+  text-align: center;
+  position: absolute;
+  top: 120px;
+  left: 150px;
+}
+
+.main__bottom-pictureon {
+  border-radius: 50%;
+  border: white solid 3px;
+}
+
+.main__bottom-name {
+  text-align: center;
+  padding-top: 80px;
+  font-weight: 600;
+}
+
+.main__bottom-job {
+  padding-top: 15px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.main__bottom-coner {
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 45px;
+}
+
+.main__bottom-follow {
+  background-color: #6a75ff;
+  color: #eaecff;
+  width: 150px;
+  height: 45px;
+  border-radius: 7px;
+  font-weight: 600;
+}
+
+.main__bottom-message {
+  background-color: #eaecff;
+  color: #6a75ff;
+  width: 150px;
+  height: 45px;
+  border-radius: 7px;
+  margin-left: 20px;
+  font-weight: 600;
+}
