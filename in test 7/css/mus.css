@@ -1,0 +1,47 @@
+.main {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  width: 700px;
+  height: 450px;
+  background-color: rgb(40, 40, 40);
+}
+
+.maintext {
+  font-weight: 600;
+  text-align: left;
+  position: relative;
+  color: white;
+  width: 180px;
+  height: 80px;
+  margin-top: 350px;
+  margin-left: 20px;
+}
+
+.takealook {
+  display: flex;
+  position: relative;
+  line-height: 35px;
+  background-color: palevioletred;
+  width: 120px;
+  height: 35px;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  right: 0;
+  bottom: 0;
+  margin: 0px 20px 20px 0px;
+  font-weight: 600;
+}
+
+.others {
+  position: absolute;
+  z-index: 2;
+  width: 700px;
+  height: 450px;
+  transition: transform 1s;
+}
+
+.others:hover {
+  transform: translate(0, -75px) scale(0.4, 0.4);
+}

@@ -1,0 +1,52 @@
+.main {
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  background-color: violet;
+}
+
+.bot {
+  position: relative;
+  height: 350px;
+  width: 600px;
+}
+
+.takealook {
+  display: flex;
+  position: relative;
+  line-height: 35px;
+  background-color: palevioletred;
+  color: white;
+  width: 120px;
+  height: 35px;
+  text-align: center;
+  justify-content: center;
+  right: 0;
+  bottom: 0;
+  font-weight: 600;
+}
+
+.top {
+  background-color: gray;
+  width: 600px;
+  height: 0px;
+  position: absolute;
+  transform-origin: 100% 100%;
+  transition: height 1s;
+}
+
+.top:hover {
+  height: 150px;
+}
+
+.mus1 {
+  position: relative;
+  color: white;
+  font-size: 24px;
+}
+
+.mus2 {
+  position: relative;
+  color: red;
+  font-weight: 600;
+}
